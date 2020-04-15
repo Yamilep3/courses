@@ -1,0 +1,45 @@
+h3  {color: indigo; }
+
+/* forma de hacer comentarios en css igual que en javascript*/
+
+/*
+selectores:
+- Selector universal -> *
+- Tipo ó etiqueta -> p
+- Class -> .algo
+- Id -> #algo
+- Pseudo-Clases -> :link, :visited, :active, :hover
+- De atributo -> [href]
+*/
+
+/* SELECTOR UNIVERSAL -> * */
+* { font-family: arial; }
+
+/* SELECTOR TIPO O DE ETIQUETA */
+span {color: darkgreen; }
+
+/* SELECTOR DE TIPO CLASS */
+.subrayado {text-decoration: underline; }
+/*span.subrayado {text-decoration: underline; } *//*otra forma de hacerlo y solo afecta a las etiquetas que yo decida*/
+
+/*SELECTOR ID */
+#mayusculas {text-transform: uppercase; }/*también se puede hacer para que afecte a determindas etiquetas por ej: h3#mayusculas*/
+
+/* SELECTORES PSEUDO-CLASS */
+a:link { color: blueviolet; }  /*Link no visitado*/
+a:visited { color: brown; } /*Link que ya se ha visitado*/
+a:hover { font-weight: bold; } /*Cursor sobre el link*/
+a:active { color: chartreuse; } /*Link presionado o al dar click*/
+
+/*SELECTORES DE ATRIBUTO */
+img[title]{ width: 200px; height: auto;} /*A todos los elementos del atributo específico*/
+video[title]{width: 500px; height: auto;} /*A todos los elementos con un atruibuto específico y un valor específico*/
+
+/* FONDO */
+body {
+    background-color: violet; /*para dar color de fondo*/
+    background-image: url(/img/margarita.jpg); /* poner una imagen de fondo*/
+    background-repeat: no-repeat;  /* repeat, repeat-x, repeat-y, no-repeat */
+    background-position: 20% 50%;  /* Posición relativa o absoluta */
+    background-attachment: fixed;  /* scroll, fixed*/
+}

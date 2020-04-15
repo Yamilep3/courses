@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            Nombre:   <input type="text" name="usuario" size="15" maxlength="30" placeholder="Digita tu nombre"><br><br>
+            password: <input type="password" name="password" size="15" maxlength="10"> <br>
+            Comentarios: <br>
+            <textarea name="comentarios" cols="20" rows="4"></textarea>
+            <hr>
+            Servicio de música: <br>
+            <input type="checkbox" name="servicio" value="spotify" checked> Spotify <br>
+            <input type="checkbox" name="servicio" value="deezer"> Deezer <br>
+            <input type="checkbox" name="servicio" value="itunes"> Itunes <br>
+            <hr>
+            Seleccione su género: <br>
+            <input type="radio" name="genero" value="masculino"> Masculino <br>
+            <input type="radio" name="genero" value="femenino"> Femenino 
+
+            <hr>
+            <select name="dispositivo" size="4" multiple>
+                <option value="">Dispositivo para escuchar música</option>
+                <option value="ipod">ipod</option>
+                <option value="celular">Celular</option>
+                <option value="portatil">Potatil</option>
+                <option value="radio">Radio</option>
+            </select>
+            
+            <hr>
+            <label for="edad">Edad:</label>
+            <input type="text" name="edad"><br>
+            
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="email">Email:</label>
+                <input type="text" name="email"><br>
+                <label for="celular">Celular</label>
+                <input type="text" name="celular"><br>
+                <label for="telefono">Teléfono:</label> 
+                <input type="text" name="telefóno"><br>
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha"> <br>            
+            </fieldset>
+            
+
+            <input type="submilt" name="inscripcion" value="Inscripción">
+
+        </form>
+    </body>
+</html>
