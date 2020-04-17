@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 800px;
+}
+
+#padre {
+    width: 900px;
+    height: 500px;
+    border: 4px solid #0CC;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#hijo {
+    text-align: center;
+    padding: 50px;
+    background: rgba(128, 128, 128, 0.5);
+    font-size: 2em;
+    position: absolute; /*relative, absolute los objetos en posición absoluta pierden el flujo en el que fueron creados en el html/
+    top: 400px;
+    left: 100px;
+}

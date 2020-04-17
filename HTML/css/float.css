@@ -1,0 +1,26 @@
+/* Float vs Display: Inline-block*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    width: 800px;
+    padding: 20px;
+    border: 2px dashed #3498DB; /*solid: linea seguida*/
+    margin: 20px auto;
+    color: #888888;
+}
+
+div {
+    padding: 40px 0;
+    text-align: center;
+    width: 25%;
+    float: left;
+    /*display: inline-block;*/
+}
+
+#div1  { background: #ffcc00; }
+#div2  { background: #99ffaa; }
+#div3  { background: #aaddff; }
+#div4  { background: #eeaaff; }
