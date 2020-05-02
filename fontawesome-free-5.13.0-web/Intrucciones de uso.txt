@@ -1,0 +1,1 @@
+copiar la carpeta "webfonts" y el archivo "all.css" de la carpeta css, pegarlos en la ruta correspondiente 
