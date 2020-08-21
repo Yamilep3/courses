@@ -29,3 +29,4 @@ var userjs = JSON.parse(localStorage.getItem('usuario'));
 
 console.log(userjs);
 document.querySelector('#peliculas').append(' ' +userjs.web+' - '+userjs.nombre);
+
